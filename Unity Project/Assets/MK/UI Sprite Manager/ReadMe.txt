@@ -3,7 +3,7 @@
 —————— Introduction —————— 
 Thanks for downloading this package stay tuned this is just the beginning or you may call it proof of concept more features are in the queue.
 After spending some years in Game Industry, I realize managing sprites in large projects is a headache, as artists have to iterate images a lot to make them better, cool and according to demand. While developers have to integrate those images and to show the feel of those images in the game.
-Also, due to this hassle, artists and developers choose a messy work around, and instead of working in spritesheet, they start working in individual sprites.
+Also, due to this hassle, artists and developers choose a messy workaround, and instead of working in spritesheet, they start working in individual sprites.
 
 —————— Purpose —————— 
 In big Unity projects, artists have to modify images frequently to make it better, and developers have to reflect that change, as the old reference becomes Missing (if the name of the updated sprite is not the same)
