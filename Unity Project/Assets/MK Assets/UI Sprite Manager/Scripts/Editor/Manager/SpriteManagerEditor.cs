@@ -6,7 +6,7 @@ using System.Xml;
 
 namespace MK.Manager
 {
-    [CustomEditor(typeof(SpriteManager))]
+    [CustomEditor(typeof(UISpriteManager))]
     public class SpriteManagerEditor : Editor
     {
         private ReorderableList list;

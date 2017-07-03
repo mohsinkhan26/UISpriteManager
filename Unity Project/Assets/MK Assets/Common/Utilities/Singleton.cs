@@ -5,7 +5,7 @@
  * so by 'sealed' keyword the overriding function calls become optimized, Devirtualization
 */
 
-namespace MK.Utilities
+namespace MK.Common.Utilities
 {
     public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {

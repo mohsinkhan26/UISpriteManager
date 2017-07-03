@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using MK.Common.Utilities;
 using MK.Utilities;
 using System;
 using System.Linq;
 
 namespace MK.Manager
 {
-    public sealed class SpriteManager : Singleton<SpriteManager>
+    public sealed class UISpriteManager : Singleton<UISpriteManager>
     {
         [SerializeField]
         List<SpriteData> sprite = new List<SpriteData>();

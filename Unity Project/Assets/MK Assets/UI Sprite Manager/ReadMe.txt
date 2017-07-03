@@ -32,11 +32,11 @@ http://cslearners.blogspot.com/2017/04/unity3d-ui-sprite-manager.html
 
 —————— Usage —————— 
 - Add enum against your sprite in SpriteEnum.cs
-- Add respective sprite in SpriteManager.prefab
+- Add respective sprite in UISpriteManager.prefab
 - Now, just add component ImageExtension.cs instead of Image in Unity UI and use it as is
 
 —————— Remember —————— 
-Drag SpriteManager.prefab in the first scene and it will persist
+Drag UISpriteManager.prefab in the first scene and it will persist
 
 —————— Special Thanks —————— 
 - All the users who provide feedback and suggestions to improve

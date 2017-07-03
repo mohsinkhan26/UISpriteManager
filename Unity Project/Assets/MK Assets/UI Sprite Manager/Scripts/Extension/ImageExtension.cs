@@ -43,8 +43,8 @@ namespace UnityEngine.UI
         {
             base.OnEnable();
             //Debug.Log("ImageExtension-OnEnable: " + name);
-            if (m_autoSetOnEnable && SpriteManager.Instance.HasSprite(m_spriteEnum))
-                this.sprite = SpriteManager.Instance.GetSprite(m_spriteEnum);
+            if (m_autoSetOnEnable && UISpriteManager.Instance.HasSprite(m_spriteEnum))
+                this.sprite = UISpriteManager.Instance.GetSprite(m_spriteEnum);
             else
                 Debug.LogError("ImageExtension-OnGameObject: " + name + "   Has no sprite related to Enum: " + m_spriteEnum.ToString());
         }
@@ -56,8 +56,8 @@ namespace UnityEngine.UI
         public void SetSpriteEnum(SpriteEnum _spriteEnum)
         {
             m_spriteEnum = _spriteEnum;
-            if (SpriteManager.Instance.HasSprite(m_spriteEnum))
-                this.sprite = SpriteManager.Instance.GetSprite(m_spriteEnum);
+            if (UISpriteManager.Instance.HasSprite(m_spriteEnum))
+                this.sprite = UISpriteManager.Instance.GetSprite(m_spriteEnum);
             else
                 Debug.LogError("ImageExtension-OnGameObject: " + name + "   Has no sprite related to Enum: " + _spriteEnum.ToString());
         }
@@ -70,9 +70,9 @@ namespace UnityEngine.UI
         public void SetSpriteAndPerform(SpriteEnum _spriteEnum, Action _onSuccess)
         {
             m_spriteEnum = _spriteEnum;
-            if (SpriteManager.Instance.HasSprite(m_spriteEnum))
+            if (UISpriteManager.Instance.HasSprite(m_spriteEnum))
             {
-                this.sprite = SpriteManager.Instance.GetSprite(m_spriteEnum);
+                this.sprite = UISpriteManager.Instance.GetSprite(m_spriteEnum);
                 if (_onSuccess != null)
                     _onSuccess();
             }

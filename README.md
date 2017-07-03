@@ -24,7 +24,7 @@ In big Unity projects, artists have to modify images frequently to make it bette
 
 ### Usage
 * Add enum against your sprite in SpriteEnum.cs
-* Add respective sprite in SpriteManager.prefab
+* Add respective sprite in UISpriteManager.prefab
 * Now, just add component ImageExtension.cs instead of Image in Unity UI and use it as is
 
 ![HowToUse-01.png](https://github.com/mohsinkhan26/UISpriteManager/blob/master/Screenshots/HowToUse-01.png)
@@ -36,7 +36,7 @@ In big Unity projects, artists have to modify images frequently to make it bette
 ![HowToUse-04.png](https://github.com/mohsinkhan26/UISpriteManager/blob/master/Screenshots/HowToUse-04.png)
 
 ### Remember
-* Drag SpriteManager.prefab in the first scene and it will persist
+* Drag UISpriteManager.prefab in the first scene and it will persist
 
 ### TODO
 * Check for duplicate entries in list and highlight with red background
