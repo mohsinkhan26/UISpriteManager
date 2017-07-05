@@ -3,7 +3,7 @@
 ### Introduction
 After spending some years in Game Industry, I realize managing sprites in large projects is a headache, as artists have to iterate images a lot to make them better, cool and according to demand. While developers have to integrate those images and to show the feel of those images in the game.
 
-Also, due to this hassle, artists and developers choose a messy work around, and instead of working in spritesheet, they start working in individual sprites.
+Also, due to this hassle, artists and developers choose a messy workaround, and instead of working in spritesheet, they start working in individual sprites.
 
 ### Purpose
 In big Unity projects, artists have to modify images frequently to make it better, and developers have to reflect that change, as the old reference becomes Missing (if the name of the updated sprite is not the same)
@@ -24,19 +24,19 @@ In big Unity projects, artists have to modify images frequently to make it bette
 
 ### Usage
 * Add enum against your sprite in SpriteEnum.cs
-* Add respective sprite in SpriteManager.prefab
+* Add respective sprite in UISpriteManager.prefab
 * Now, just add component ImageExtension.cs instead of Image in Unity UI and use it as is
 
-![HowToUse-01.png](https://bytebucket.org/unbounded-eagle/ui_sprite_manager/raw/b3f83761e136ebf784d6e9a81ab8163c6676e358/Screenshots/HowToUse-01.png)
+![HowToUse-01.png](https://github.com/mohsinkhan26/UISpriteManager/blob/master/Screenshots/HowToUse-01.png)
 
-![HowToUse-02.png](https://bytebucket.org/unbounded-eagle/ui_sprite_manager/raw/b3f83761e136ebf784d6e9a81ab8163c6676e358/Screenshots/HowToUse-02.png)
+![HowToUse-02.png](https://github.com/mohsinkhan26/UISpriteManager/blob/master/Screenshots/HowToUse-02.png)
 
-![HowToUse-03.png](https://bytebucket.org/unbounded-eagle/ui_sprite_manager/raw/b3f83761e136ebf784d6e9a81ab8163c6676e358/Screenshots/HowToUse-03.png)
+![HowToUse-03.png](https://github.com/mohsinkhan26/UISpriteManager/blob/master/Screenshots/HowToUse-03.png)
 
-![HowToUse-04.png](https://bytebucket.org/unbounded-eagle/ui_sprite_manager/raw/fe749ed7938e0090ba41b91e817d0b7957ed915f/Screenshots/HowToUse-04.png)
+![HowToUse-04.png](https://github.com/mohsinkhan26/UISpriteManager/blob/master/Screenshots/HowToUse-04.png)
 
 ### Remember
-* Drag SpriteManager.prefab in the first scene and it will persist
+* Drag UISpriteManager.prefab in the first scene and it will persist
 
 ### TODO
 * Check for duplicate entries in list and highlight with red background

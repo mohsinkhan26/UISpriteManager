@@ -38,8 +38,8 @@ namespace UnityEditor.UI
             if (GUILayout.Button("Set Image Now"))
             {
                 SpriteEnum enumValue = (SpriteEnum)Enum.Parse(typeof(SpriteEnum), ((int)(m_SpriteEnum.enumValueIndex)).ToString());
-                if (SpriteManager.Instance.HasSprite(enumValue))
-                    m_Sprite.objectReferenceValue = SpriteManager.Instance.GetSprite(enumValue);
+                if (UISpriteManager.Instance.HasSprite(enumValue))
+                    m_Sprite.objectReferenceValue = UISpriteManager.Instance.GetSprite(enumValue);
             }
 
             serializedObject.ApplyModifiedProperties();
