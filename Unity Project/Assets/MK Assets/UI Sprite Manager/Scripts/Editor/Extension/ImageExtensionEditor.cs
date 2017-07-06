@@ -1,4 +1,8 @@
-﻿using UnityEngine.UI;
+﻿/* 
+ * Author : Mohsin Khan
+ * Website : http://mohsinkhan.000webhostapp.com/
+*/
+using UnityEngine.UI;
 using UnityEngine;
 using MK.Manager;
 using MK.Utilities;
