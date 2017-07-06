@@ -1,4 +1,8 @@
-﻿namespace MK.Utilities
+﻿/* 
+ * Author : Mohsin Khan
+ * Website : http://mohsinkhan.000webhostapp.com/
+*/
+namespace MK.Utilities
 {
     /// <summary>
     /// Sprite enum respective to sprites

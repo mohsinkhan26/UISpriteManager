@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿/* 
+ * Author : Mohsin Khan
+ * Website : http://mohsinkhan.000webhostapp.com/
+*/
+using UnityEngine;
 
 /* Reference: https://blogs.unity3d.com/2016/07/26/il2cpp-optimizations-devirtualization/
  * write 'sealed' keyword with each singleton inheriting classes, if they are leaf nodes, 
