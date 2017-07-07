@@ -2,9 +2,9 @@
  * Author : Mohsin Khan
  * Website : http://mohsinkhan.000webhostapp.com/
 */
-using MK.Utilities;
-using MK.Manager;
 using System;
+using MK.UISprite.Utilities;
+using MK.UISprite.Manager;
 
 namespace UnityEngine.UI
 {

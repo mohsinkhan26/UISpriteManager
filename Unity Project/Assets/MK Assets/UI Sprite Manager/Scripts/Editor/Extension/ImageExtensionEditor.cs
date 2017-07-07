@@ -2,11 +2,11 @@
  * Author : Mohsin Khan
  * Website : http://mohsinkhan.000webhostapp.com/
 */
-using UnityEngine.UI;
-using UnityEngine;
-using MK.Manager;
-using MK.Utilities;
 using System;
+using UnityEngine;
+using UnityEngine.UI;
+using MK.UISprite.Manager;
+using MK.UISprite.Utilities;
 
 namespace UnityEditor.UI
 {

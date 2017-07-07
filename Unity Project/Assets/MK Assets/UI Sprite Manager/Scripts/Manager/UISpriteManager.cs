@@ -3,13 +3,13 @@
  * Website : http://mohsinkhan.000webhostapp.com/
 */
 using UnityEngine;
-using System.Collections.Generic;
-using MK.Common.Utilities;
-using MK.Utilities;
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using MK.Common.Utilities;
+using MK.UISprite.Utilities;
 
-namespace MK.Manager
+namespace MK.UISprite.Manager
 {
     public sealed class UISpriteManager : Singleton<UISpriteManager>
     {
