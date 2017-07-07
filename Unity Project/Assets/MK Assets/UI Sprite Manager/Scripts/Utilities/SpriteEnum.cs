@@ -2,7 +2,7 @@
  * Author : Mohsin Khan
  * Website : http://mohsinkhan.000webhostapp.com/
 */
-namespace MK.Utilities
+namespace MK.UISprite.Utilities
 {
     /// <summary>
     /// Sprite enum respective to sprites

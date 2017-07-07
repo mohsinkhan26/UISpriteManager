@@ -5,10 +5,10 @@
 using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
-using MK.Manager;
 using System.Xml;
+using MK.UISprite.Manager;
 
-namespace MK.Manager
+namespace MK.UISprite.Manager
 {
     [CustomEditor(typeof(UISpriteManager))]
     public class SpriteManagerEditor : Editor
