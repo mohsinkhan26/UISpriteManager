@@ -1,6 +1,8 @@
 ﻿/* 
  * Author : Mohsin Khan
- * Website : http://mohsinkhan.000webhostapp.com/
+ * LinkedIn : http://pk.linkedin.com/in/mohsinkhan26/
+ * Github : https://github.com/mohsinkhan26/
+ * BitBucket : https://bitbucket.org/unbounded-eagle/ 
 */
 using System;
 using UnityEngine;
