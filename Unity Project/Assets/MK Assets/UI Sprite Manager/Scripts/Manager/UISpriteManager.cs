@@ -5,11 +5,10 @@
  * BitBucket : https://bitbucket.org/unbounded-eagle/ 
 */
 using UnityEngine;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using MK.Common.Utilities;
-using MK.UISprite.Utilities;
+using MK.UISprite.API;
 
 namespace MK.UISprite.Manager
 {
@@ -40,20 +39,6 @@ namespace MK.UISprite.Manager
             if (!sprite.Exists(item => item.spriteEnum == _spriteEnum))
                 return null;
             return sprite.FirstOrDefault(item => item.spriteEnum == _spriteEnum).sprite;
-        }
-
-        [Serializable]
-        class SpriteData
-        {
-            /// <summary>
-            /// Saves sprite enum respective to sprite
-            /// </summary>
-            public SpriteEnum spriteEnum;
-
-            /// <summary>
-            /// Saves sprite respective to enum
-            /// </summary>
-            public Sprite sprite;
         }
     }
 }

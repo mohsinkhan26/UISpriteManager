@@ -5,7 +5,7 @@
  * BitBucket : https://bitbucket.org/unbounded-eagle/ 
 */
 using System;
-using MK.UISprite.Utilities;
+using MK.UISprite.API;
 using MK.UISprite.Manager;
 
 namespace UnityEngine.UI
