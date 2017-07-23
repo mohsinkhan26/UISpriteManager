@@ -4,7 +4,7 @@
  * Github : https://github.com/mohsinkhan26/
  * BitBucket : https://bitbucket.org/unbounded-eagle/ 
 */
-namespace MK.UISprite.Utilities
+namespace MK.UISprite.API
 {
     /// <summary>
     /// Sprite enum respective to sprites
@@ -23,6 +23,6 @@ namespace MK.UISprite.Utilities
         dummyImage03,
         dummyImage04,
         dummyImage05,
-        dummyImage06,
+        dummyImage06
     }
 }

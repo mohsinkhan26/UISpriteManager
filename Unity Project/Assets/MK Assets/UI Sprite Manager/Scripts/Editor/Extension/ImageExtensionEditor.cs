@@ -8,7 +8,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using MK.UISprite.Manager;
-using MK.UISprite.Utilities;
+using MK.UISprite.API;
 
 namespace UnityEditor.UI
 {
