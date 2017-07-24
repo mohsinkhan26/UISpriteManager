@@ -14,7 +14,7 @@ namespace MK.Common.Miscellaneous
         [MenuItem("Tools/MK Assets/Check All Plugins", false, 50)]
         public static void CheckAllPlugins()
         {
-            Application.OpenURL("https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:28971/");
+            Application.OpenURL("https://assetstore.unity.com/publishers/28971");
         }
 
         [MenuItem("Tools/MK Assets/OpenScene/UI Sprite Manager - Demo Scene")]
