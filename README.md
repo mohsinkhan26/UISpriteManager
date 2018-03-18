@@ -24,7 +24,7 @@ In big Unity projects, artists have to modify images frequently to make it bette
 
 ### Usage
 * Add enum against your sprite in SpriteEnum.cs
-* Add respective sprite in UISpriteManager.prefab
+* Add respective sprite in SpriteData.asset file
 * Now, just add component ImageExtension.cs instead of Image in Unity UI and use it as is
 
 ![HowToUse-01.png](https://github.com/mohsinkhan26/UISpriteManager/blob/master/Screenshots/HowToUse-01.png)
