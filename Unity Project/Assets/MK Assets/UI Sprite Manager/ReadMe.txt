@@ -1,4 +1,4 @@
-		Overview UI Sprite Manager
+﻿     Overview UI Sprite Manager
 
 —————— Introduction —————— 
 Thanks for downloading this package stay tuned this is just the beginning or you may call it proof of concept more features are in the queue.
@@ -9,13 +9,13 @@ Also, due to this hassle, artists and developers choose a messy workaround, and 
 In big Unity projects, artists have to modify images frequently to make it better, and developers have to reflect that change, as the old reference becomes Missing (if the name of the updated sprite is not the same)
 
 —————— Unity Asset Store Link —————— 
-https://www.assetstore.unity3d.com/#!/content/89387 
+http://u3d.as/PKH 
 
 —————— GitHub Link —————— 
 https://github.com/mohsinkhan26/UISpriteManager 
 
 —————— BitBucket Link —————— 
-https://bitbucket.org/unbounded-eagle/ui_sprite_manager/ 
+https://bitbucket.org/mohsinkhan26/ui_sprite_manager/ 
 
 —————— Blog Link —————— 
 http://cslearners.blogspot.com/2017/04/unity3d-ui-sprite-manager.html
@@ -28,11 +28,11 @@ http://cslearners.blogspot.com/2017/04/unity3d-ui-sprite-manager.html
 - Still you can change the sprite on runtime with ImageExtension public methods
 - Easy to use, Plug n play
 - Open Source code without any dll
-- Done by extending Image component
+- Done by using asset file and extending Image component
 
 —————— Usage —————— 
 - Add enum against your sprite in SpriteEnum.cs
-- Add respective sprite in UISpriteManager.prefab
+- Add respective sprite in SpriteData.asset file
 - Now, just add component ImageExtension.cs instead of Image in Unity UI and use it as is
 
 —————— Remember —————— 
@@ -43,4 +43,4 @@ Drag UISpriteManager.prefab in the first scene and it will persist
 - All the users who gave reviews on Asset store
 
 
-		Thanks for your support!
+     Thanks for your support!

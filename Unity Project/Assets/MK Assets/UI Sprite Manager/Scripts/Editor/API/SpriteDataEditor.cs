@@ -2,33 +2,31 @@
  * Author : Mohsin Khan
  * LinkedIn : http://pk.linkedin.com/in/mohsinkhan26/
  * Github : https://github.com/mohsinkhan26/
- * BitBucket : https://bitbucket.org/unbounded-eagle/ 
+ * BitBucket : https://bitbucket.org/mohsinkhan26/ 
 */
 using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
-using System.Xml;
-using MK.UISprite.Manager;
 
-namespace MK.UISprite.Manager
+namespace MK.UISprite.API
 {
-    [CustomEditor(typeof(UISpriteManager))]
-    public class SpriteManagerEditor : Editor
+    [CustomEditor(typeof(SpriteData))]
+    public class SpriteDataEditor : Editor
     {
         private ReorderableList list;
         const float COLUMN_MARGIN = 10f;
 
         private void OnEnable()
         {
-            list = new ReorderableList(serializedObject, serializedObject.FindProperty("sprite"), true, true, true, true);
+            list = new ReorderableList(serializedObject, serializedObject.FindProperty("sprites"), true, true, true, true);
             list.elementHeight = 80f;
 
             list.drawHeaderCallback = (Rect rect) =>
-            {  
+            {
                 EditorGUI.LabelField(rect, "Sprite Data");
             };
 
-            list.drawElementCallback = 
+            list.drawElementCallback =
                 (Rect rect, int index, bool isActive, bool isFocused) =>
             { // called to draw the elements
 
@@ -50,29 +48,29 @@ namespace MK.UISprite.Manager
                         EditorGUI.LabelField(
                             new Rect(rect.x, rect.y + ((EditorGUIUtility.singleLineHeight + COLUMN_MARGIN) * 2), rowWidth, EditorGUIUtility.singleLineHeight * 2),
                             "Belongs to following texture");
-                            
+
                         GUIStyle style = new GUIStyle();
                         style.normal.background = _sprite.texture;
                         EditorGUI.LabelField(new Rect(rect.x + rowWidth + (rowWidth / 14f), rect.y, 70f, 70f), GUIContent.none, style);
                     }
                 }
             };
-            
+
             list.onSelectCallback = (ReorderableList l) =>
             { // called when an entry is selected
                 var sprite = l.serializedProperty.GetArrayElementAtIndex(l.index).FindPropertyRelative("sprite").objectReferenceValue as Sprite;
                 if (sprite)
                     EditorGUIUtility.PingObject(sprite);
             };
-            
+
             list.onCanRemoveCallback = (ReorderableList l) =>
-            {  
+            {
                 return l.count > 1;
             };
-            
+
             list.onRemoveCallback = (ReorderableList l) =>
             {
-                if (EditorUtility.DisplayDialog("Warning!", 
+                if (EditorUtility.DisplayDialog("Warning!",
                         "Are you sure you want to delete the sprite? It might have references.", "Yes", "No"))
                 {
                     ReorderableList.defaultBehaviours.DoRemoveButton(l);

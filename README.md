@@ -10,7 +10,7 @@ In big Unity projects, artists have to modify images frequently to make it bette
 
 ### Unity Asset Store Link
 
-[https://www.assetstore.unity3d.com/#!/content/89387](https://www.assetstore.unity3d.com/#!/content/89387)
+[http://u3d.as/PKH](http://u3d.as/PKH)
 
 ### Features
 * Easily make reskin of your game, if the game is made using UI Sprite Manager
@@ -20,7 +20,7 @@ In big Unity projects, artists have to modify images frequently to make it bette
 * Still you can change the sprite on runtime with ImageExtension public methods
 * Easy to use, Plug n play
 * Open Source code without any DLL
-* Done by extending Image component
+* Done by using asset file and extending Image component
 
 ### Usage
 * Add enum against your sprite in SpriteEnum.cs
@@ -35,8 +35,10 @@ In big Unity projects, artists have to modify images frequently to make it bette
 
 ![HowToUse-04.png](https://github.com/mohsinkhan26/UISpriteManager/blob/master/Screenshots/HowToUse-04.png)
 
+![HowToUse-05.png](https://github.com/mohsinkhan26/UISpriteManager/blob/master/Screenshots/HowToUse-05.png)
+
 ### Remember
-* Drag UISpriteManager.prefab in the first scene and it will persist
+* Just drag UISpriteManager.prefab in the first scene and it will persist
 
 ### TODO
 * Check for duplicate entries in list and highlight with red background

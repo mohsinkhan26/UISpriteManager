@@ -2,10 +2,8 @@
  * Author : Mohsin Khan
  * LinkedIn : http://pk.linkedin.com/in/mohsinkhan26/
  * Github : https://github.com/mohsinkhan26/
- * BitBucket : https://bitbucket.org/unbounded-eagle/ 
+ * BitBucket : https://bitbucket.org/mohsinkhan26/ 
 */
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,7 +24,7 @@ namespace MK.UISprite
             message.text = "Press 0, 1, 2 or 3 to see UI Sprite Manager in action";
             info.text = "";
         }
-	
+
         // Update is called once per frame
         void Update()
         {
